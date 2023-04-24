@@ -1,0 +1,67 @@
+.first {
+    border: 5px solid red;
+    padding: 20px;
+}
+
+.first p {
+    background-color: #eee;
+    text-align: center;
+    font-family: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: inherit;
+    padding: inherit;
+}
+
+.second {
+    border: 5px solid green;
+    padding: 20px;
+}
+
+.second p {
+    background-color: #eee;
+    text-align: center;
+    font-family: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: inherit;
+    padding: inherit;
+}
+
+
+.one {
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.two {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.three {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.four {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.five {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.six {
+    font-size: 1.5rem;
+    text-align: center;
+
+}

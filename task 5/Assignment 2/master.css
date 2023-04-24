@@ -1,0 +1,53 @@
+.p {
+    font-weight: bold;
+    text-shadow: .5px .5px 0 #f44336, 1px 1px 0 #2196f3, 1.5px 1.5px 0 purple;
+}
+
+.one,
+.two,
+.three {
+    text-align: center;
+    font-weight: bold;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+.A,
+.B,
+.C {
+    background-color: #eee;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.C {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a {
+    background-color: #139c8e;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 31px;
+    text-transform: capitalize;
+    margin: 20px auto;
+    width: fit-content;
+    text-decoration: none;
+    border-bottom: 10px solid #0e5e57;
+    font-family: arial;
+    font-weight: bold;
+}
