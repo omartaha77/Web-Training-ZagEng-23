@@ -1,0 +1,57 @@
+.parent {
+    width: 800px;
+    background-color: #eee;
+    margin: 20px auto;
+}
+
+.A,
+.B,
+.C,
+.D {
+    background-color: #ccc;
+    font-weight: bold;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.A {
+    width: calc(100% - 30px);
+}
+
+.B {
+    width: calc((100% - 60px) / 3);
+}
+
+.C {
+    width: calc((100% - 45px) / 2);
+}
+
+.D {
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.child div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(179 179 179);
+    color: black;
+}
+
+.child .one {
+    background-color: rgb(179 179 179 / 0.1);
+}
+
+.child .two {
+    opacity: .1;
+}
